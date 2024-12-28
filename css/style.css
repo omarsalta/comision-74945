@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+header {
+    background-color: rgba(224, 234, 240, 0.747);
+    position: sticky;
+    top: 0;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+   
+}
+header nav ul{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo {
+    width: 150px;
+    height: 180px
+}
+
+
+header nav ul { 
+    list-style: none;      
+    
+}
+
+header p {
+    font-style: oblique;
+    color: rgb(78, 226, 226);
+}
+header nav ul a {
+    text-decoration: none;
+    color: rgb(10, 29, 29);
+    font-style: oblique;
+   
+}
+h1{ 
+    font-size: 60px;
+    font-weight: 400;
+    color: rgb(40, 44, 44);
+    
+}
+.bienvenida h2 {
+    text-align: center;
+}
+
+
+.bienvenida {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/bienve1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bienvenida h2 {
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(195, 221, 221);
+}
+.bienvenida p {
+    text-align: center;
+    font-weight: medium;
+    font-size: 20px;
+    color: rgb(195, 221, 221);
+}
+main h2{
+    text-align: center;
+}
+
+.grid-productos{
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 350px 350px 350px;
+    gap: 10px;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+
+}
+.center p{
+    font-style: italic;
+    text-align: center;
+        
+}
+.grid-produ-1 img{
+    margin-left: 10%;
+    width: 250px;
+    height: 250px;
+    
+}
+.grip-page{
+    width: 100%;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+}
+.grip-page h2{
+    font-size: larger;
+    font-size: 60px;
+    color: rgb(94, 117, 160);    
+}
+.grip-opcion img{
+    width: 60%;
+    height: 200px;
+    
+}
+.grip-opcion {
+    border: 2px solid tomato;
+}
+
+
+
+.abono {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/abono.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+.abono {
+    color: rgba(235, 242, 243, 0.884);
+    text-align: center;
+    text-overflow: clip;
+    
+}
+.item-carru {
+    width: 100%;
+    height: 400px;
+}
+.item-carru img {
+    height: 400px;
+}
+.somos {
+    width: 100%;
+    height: 500px;
+}
+.somos1 h2 {
+    color: rgb(238, 234, 235);
+    font-size: 40px;   
+   
+
+}
+.somos1 p {
+    color: rgb(238, 234, 235);
+    text-align: justify;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.somos2 h2 {
+    color: rgb(238, 234, 235);
+    font-size: 40px;
+}
+.somos2 p {
+    color: rgb(238, 234, 235);
+    font-size: 20px;
+    padding: 1em;
+    
+}
+
+.contacto a img{
+    width: 350px;
+    height: 350px;
+    object-fit:cover;
+}
+.mb-3{
+    width: 80%;
+}
+footer {
+    background-color: rgb(23, 27, 31);
+    margin-top: 0px; 
+    font-style: italic;
+    color: blanchedalmond;
+    text-align: center;   
+}
+footer div{
+    border: 2px solid brown;
+   
+    
+}
+footer div a img{
+    width: 30px;
+    height: 30px
+}
+.wasap {
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    
+}
