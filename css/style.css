@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0%;
     padding: 0%;
@@ -7,10 +8,11 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    
+
 }
 
-.ubi{
+/* Logo encabezado */
+.ubi {
     width: 120px;
     height: 100px;
 }
@@ -19,68 +21,82 @@ body {
     width: 150px;
     height: 150px;
 }
+
 header p {
     font-style: oblique;
     color: rgb(78, 226, 226);
 }
-h1{ 
+
+h1 {
     font-size: 60px;
     font-weight: 400;
     color: rgb(40, 44, 44);
-    
+
 }
+
 .bienvenida h2 {
     text-align: center;
 }
 
 
 .bienvenida {
-    width: 100%;
-    height: 400px;
-    background-image: url(../img/bienve1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/bienve1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
 }
+
 .bienvenida h2 {
     font-weight: 400;
     font-size: 60px;
     color: rgb(195, 221, 221);
 }
+
 .bienvenida p {
     text-align: center;
     font-weight: medium;
     font-size: 20px;
     color: rgb(195, 221, 221);
 }
-main h2{
+
+main h2 {
     text-align: center;
 }
 
-.grid-productos{
+.grid-productos {
     width: 100%;
     margin-top: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px 350px 350px;
     gap: 10px;
 }
 
-.center{
+.center {
     display: flex;
     flex-direction: row;
 
 }
-.center p{
+
+.center p {
     font-style: italic;
-    text-align: center;        
+    text-align: center;
 }
-.grid-produ-1 img{
+
+.grid-produ-1 img {
     width: 250px;
-    height: 250px;    
+    height: 250px;
 }
-.grid-inicio{
+
+.grid-inicio {
     width: 100%;
     background-image: url(../img/inicio.jpg);
     background-repeat: no-repeat;
@@ -90,35 +106,40 @@ main h2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 350px;
-    
-    
+
+
 }
-.grid-page h2{
+
+.grid-page h2 {
     font-size: larger;
     font-size: 60px;
-    color: rgb(100, 111, 112);    
+    color: rgb(100, 111, 112);
 }
-.grid-opcion{
+
+.grid-opcion {
     margin: 5px;
-   
 }
-.grid-opcion img{
+
+.grid-opcion img {
     width: 100%;
-    height: 100%;  
-    object-fit: cover;  
+    height: 100%;
+    object-fit: cover;
 }
-.asesor{
+
+.asesor {
     font-size: 12px;
     text-align: center;
     color: aliceblue;
 }
-.asesor1{
+
+.asesor1 {
     grid-row: span 2;
     font-size: 12px;
     text-align: center;
     color: aliceblue
 }
-.casa{
+
+.casa {
     grid-row: span 2;
 }
 
@@ -128,33 +149,37 @@ main h2{
     background-image: url(../img/abono.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;  
+    background-position: center;
 }
+
 .abono {
     color: rgba(235, 242, 243, 0.884);
     text-align: center;
     text-overflow: clip;
-    
+
 }
+
 .item-carru {
     width: 100%;
     height: 400px;
 }
+
 .item-carru img {
     width: 100%;
     height: 400px;
-    background-size:auto;
+    background-size: auto;
 }
+
 .somos {
     width: 100%;
     height: 500px;
 }
+
 .somos1 h2 {
     color: rgb(238, 234, 235);
-    font-size: 40px;   
-   
-
+    font-size: 40px;
 }
+
 .somos1 p {
     color: rgb(238, 234, 235);
     text-align: justify;
@@ -166,33 +191,37 @@ main h2{
     color: rgb(238, 234, 235);
     font-size: 40px;
 }
+
 .somos2 p {
     color: rgb(238, 234, 235);
     font-size: 20px;
     padding: 1em;
-    
+
 }
 
-.contacto a img{
+.contacto a img {
     width: 350px;
     height: 350px;
-    object-fit:cover;
-}
-.mb-3{
-    width: 80%;
-}
-footer {
-    background-color: rgb(23, 27, 31);
-    margin-top: 0px; 
-    font-style: italic;
-    color: blanchedalmond;
-    text-align: center;   
+    object-fit: cover;
 }
 
-footer div a img{
+.mb-3 {
+    width: 80%;
+}
+
+footer {
+    background-color: rgb(10, 80, 150);
+    margin-top: 0px;
+    font-style: italic;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+footer div a img {
     width: 30px;
     height: 30px
 }
+
 .wasap {
     position: fixed;
     width: 60px;
@@ -203,22 +232,147 @@ footer div a img{
     color: #06d474;
     border-radius: 50%;
     box-shadow: 1px 1px 2px #999;
-    text-align: center; 
+    text-align: center;
     z-index: 999;
 }
-.fa-whatsapp{
+
+.fa-whatsapp {
     font-size: 60px;
     color: white;
 }
-.wasap:hover{
+
+.wasap:hover {
     background-color: rgb(218, 218, 209);
 }
 
-.grid-footer{
+.grid-footer {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 150px;
-   
+
 }
 
+@media screen and (max-width:350px) {
+    .navbar-toggler-icon {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
+    .bienvenida h2 {
+        border: 2px solid green;
+        font-weight: 150;
+        font-size: 20px;
+    }
+    .bienvenida p {
+        font-size: 12px;
+        padding: 1em;
+    }
+    .ubi {
+        width: 80px;
+        height: 60px;
+    }
+    .logo {
+        width: 80px;
+        height: 60px;
+    }
+    .grid-productos {
+        width: 100%;
+        margin-top: 0,5px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    .grid-produ-1 img {
+        width: 60px;
+        height: 60px;
+        margin-inline: 50%;
+        writing-mode: horizontal-tb;
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    .center p {
+            font-size: 12px;
+            margin: auto;
+
+        }
+    .center h2 {
+            font-size: 12px;
+
+       }
+       .contacto h2 {
+        font-size: 12px;
+
+   }
+       .grid-inicio {
+        width: 100%;
+        background-image: url(../img/fondo-respo.jpg);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px;  
+    }
+    .asesor  {
+        font-size: 10px;
+        text-align: center;
+        color: rgb(7, 10, 14);
+    }
+    .asesor h3 {
+        font-size: 14px;
+    }
+    .asesor1  {
+        font-size: 10px;
+        text-align: center;
+        color: rgb(7, 10, 14);
+    }
+    .asesor1 h3 {
+        font-size: 14px;
+    }
+    .asesor1 {
+        grid-row: auto;
+    }
+    .grid-opcion,
+    .grid-asesor1{
+        display: grid;
+        grid-template-rows: fr fr fr;
+        border: 2px solid green;
+      }
+      .item-carru img {
+        width: 100%;
+        height: 300px;
+        background-size: auto;
+    }
+    .item-carru {
+        width: 100%;
+        height: 300px;
+        background-size: auto;
+    }
+    .wasap {
+        width: 30px;
+        height: 30px;
+        left: 10px;
+    }
+    .grid-pie1 p{
+        font-size: 10px;
+    }
+    .fa-whatsapp {
+        font-size: 30px;
+        color: white;
+    }
+    .wasap:hover {
+        background-color: rgb(218, 218, 209);
+    }
+    .form-label {
+        margin-bottom: .5rem;
+        font-size: 12px;
+    }
+    .boton{
+        font-size: 12px;
+       
+
+}
