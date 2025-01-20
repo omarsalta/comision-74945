@@ -1,0 +1,49 @@
+/* Logo footer */
+
+.logo {
+    width: 150px;
+    height: 150px;
+}
+footer {
+    background-color: rgb(10, 80, 150);
+    margin-top: 0px;
+    font-style: italic;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+footer div a img {
+    width: 30px;
+    height: 30px
+}
+
+.wasap {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    bottom: 10px;
+    right: 10px;
+    color: #06d474;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #999;
+    text-align: center;
+    z-index: 999;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+    color: white;
+}
+
+.wasap:hover {
+    background-color: rgb(218, 218, 209);
+}
+
+.grid-footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 150px;
+
+}
