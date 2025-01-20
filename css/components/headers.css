@@ -1,0 +1,18 @@
+/* Logo encabezado */
+.ubi {
+  width: 120px;
+  height: 100px;
+}
+
+header p {
+  font-style: oblique;
+  color: rgb(78, 226, 226);
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  color: rgb(40, 44, 44);
+}
+
+/*# sourceMappingURL=headers.css.map */

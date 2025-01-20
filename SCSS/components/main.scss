@@ -1,0 +1,172 @@
+main h2 {
+    text-align: center;
+}
+
+.bienvenida h2 {
+    text-align: center;
+}
+
+
+.bienvenida {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(../img/bienve1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.bienvenida h2 {
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(195, 221, 221);
+}
+
+.bienvenida p {
+    text-align: center;
+    font-weight: medium;
+    font-size: 20px;
+    color: rgb(195, 221, 221);
+}
+/* pagina productos */
+
+.grid-productos {
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px;
+    gap: 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.center p {
+    font-style: italic;
+    text-align: center;
+}
+
+.grid-produ-1 img {
+    width: 250px;
+    height: 250px;
+}
+
+.grid-inicio {
+    width: 100%;
+    background-image: url(../img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px;
+}
+
+.grid-page h2 {
+    font-size: larger;
+    font-size: 60px;
+    color: rgb(100, 111, 112);
+}
+
+.grid-opcion {
+    margin: 5px;
+}
+
+.grid-opcion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.asesor {
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.asesor1 {
+    grid-row: span 2;
+    font-size: 12px;
+    text-align: center;
+    color: aliceblue
+}
+
+.casa {
+    grid-row: span 2;
+}
+
+.abono {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/abono.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.abono {
+    color: rgba(235, 242, 243, 0.884);
+    text-align: center;
+    text-overflow: clip;
+}
+
+.item-carru {
+    width: 100%;
+    height: 400px;
+}
+
+.item-carru img {
+    width: 100%;
+    height: 400px;
+    background-size: auto;
+}
+
+.somos {
+    width: 100%;
+    height: 500px;
+}
+
+.somos1 h2 {
+    color: rgb(238, 234, 235);
+    font-size: 40px;
+}
+
+.somos1 p {
+    color: rgb(238, 234, 235);
+    text-align: justify;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.somos2 h2 {
+    color: rgb(238, 234, 235);
+    font-size: 40px;
+}
+
+.somos2 p {
+    color: rgb(238, 234, 235);
+    font-size: 20px;
+    padding: 1em;
+
+}
+
+.contacto a img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.mb-3 {
+    width: 80%;
+}

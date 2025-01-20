@@ -17,11 +17,12 @@ body {
     height: 100px;
 }
 
+/* Logo footer */
+
 .logo {
     width: 150px;
     height: 150px;
 }
-
 header p {
     font-style: oblique;
     color: rgb(78, 226, 226);
@@ -44,7 +45,7 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url(../img/bienve1.jpg);
@@ -70,6 +71,8 @@ h1 {
 main h2 {
     text-align: center;
 }
+
+/* pagina productos */
 
 .grid-productos {
     width: 100%;
@@ -242,6 +245,7 @@ footer div a img {
 }
 
 .grid-footer {
+    border: 2px solid green;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -388,8 +392,12 @@ footer div a img {
         margin-bottom: .5rem;
         font-size: 12px;
     }
+<<<<<<< HEAD
 
     .boton {
+=======
+    .boton{
+>>>>>>> responsive
         font-size: 12px;
     }
 }
